@@ -1,0 +1,55 @@
+@import "base.scss";
+
+//  _____                 _                                 _             _
+// / ____|               | |                               | |           | |
+// | |       _   _   ___  | |_    ___    _ __ ___      ___  | |_   _   _  | |   ___   ___
+// | |      | | | | / __| | __|  / _ \  | '_ ` _ \    / __| | __| | | | | | |  / _ \ / __|
+// | |____  | |_| | \__ \ | |_  | (_) | | | | | | |   \__ \ | |_  | |_| | | | |  __/ \__ \
+// \_____|  \__,_| |___/  \__|  \___/  |_| |_| |_|   |___/  \__|  \__, | |_|  \___| |___/
+//                                                                 __/ |
+//                                                                |___/
+
+.verse-player-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.verse-player-embed iframe,
+.verse-player-embed object,
+.verse-player-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hc-fluid-img {
+    display: block;
+}
+
+.hc-credits {
+    div {
+        padding-right: 0;
+    }
+}
+
+li.email {
+    margin-right: 0;
+}
+
+.hc-refer-head,
+.hc-refer-deck {
+    color: black;
+}
+
+.share-icons {
+    padding-bottom: 6rem;
+}
+
+#hc-suggested-heading {
+    background: #333;
+}
